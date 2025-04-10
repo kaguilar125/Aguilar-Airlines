@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+  }
+  
+  #row1 {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav .login {
+    margin-left: 20px;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .booking-options {
+    display: flex;
+    justify-content: center;
+    background: #e6e6e6;
+  }
+  
+  .booking-options button {
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    background: #ccc;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .booking-options .active {
+    background: #999;
+  }
+  
+  .flight-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .flight-form input {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .flight-form .continue {
+    padding: 10px 20px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #ddd;
+    flex-wrap: wrap;
+  }
+  
+  .services div {
+    margin: 10px;
+    padding: 10px;
+    background: #ccc;
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .skywards {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .skywards .circle {
+    width: 50px;
+    height: 50px;
+    background: #aaa;
+    border-radius: 50%;
+  }
+  
+  .skywards .text h3 {
+    margin: 0;
+  }
+  
+  .skywards .join {
+    margin-left: auto;
+    padding: 10px 20px;
+    background: #999;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
